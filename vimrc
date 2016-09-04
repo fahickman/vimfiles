@@ -22,7 +22,9 @@ map tk :tabnext<CR>
 map tj :tabprev<CR>
 map tl :tablast<CR>
 
+set ignorecase
 set smartcase
+set incsearch
 
 colorscheme zenburnmod
 
