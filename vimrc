@@ -25,7 +25,7 @@ set autoread
 set autochdir
 
 syntax on
-colorscheme zenburnmod
+colorscheme fah
 
 map th :tabfirst<CR>
 map tk :tabnext<CR>
