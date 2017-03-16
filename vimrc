@@ -36,6 +36,8 @@ set ignorecase
 set smartcase
 set incsearch
 
+map <MiddleMouse> <LeftMouse>
+map <2-MiddleMouse> <2-LeftMouse>
 nnoremap <C-L> :nohl<CR><C-L>
 nnoremap <Space> @q
 
