@@ -1,6 +1,7 @@
 set nocompatible
 set nobackup
 set nowritebackup
+set noswapfile
 set encoding=utf-8
 set fileencodings=utf-8
 
