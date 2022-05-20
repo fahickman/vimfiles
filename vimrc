@@ -42,3 +42,13 @@ map <2-MiddleMouse> <2-LeftMouse>
 nnoremap <C-L> :nohl<CR><C-L>
 nnoremap <Space> @q
 
+" windows copy/paste key bindings
+if has("win32") || has("win64")
+    vmap <C-c> "+yi
+    nmap <C-c> "+yy
+    vmap <C-x> "+c
+    nmap <C-x> "+dd
+    vmap <C-v> c<ESC>"+P
+    imap <C-v> <ESC>"+Pa
+    nmap <C-v> "+P
+endif
