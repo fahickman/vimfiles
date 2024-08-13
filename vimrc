@@ -28,11 +28,6 @@ set autochdir
 syntax on
 colorscheme fah
 
-map th :tabfirst<CR>
-map tk :tabnext<CR>
-map tj :tabprev<CR>
-map tl :tablast<CR>
-
 set ignorecase
 set smartcase
 set incsearch
@@ -41,4 +36,3 @@ map <MiddleMouse> <LeftMouse>
 map <2-MiddleMouse> <2-LeftMouse>
 nnoremap <C-L> :nohl<CR><C-L>
 nnoremap <Space> @q
-
